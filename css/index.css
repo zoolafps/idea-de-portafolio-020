@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+body{
+     margin: 0px;
+     padding: 0px;
+     font-size: 20px;
+     font-family: 'Montserrat', Arial, Helvetica;
+     background: rgb(178,21,90);
+     background: radial-gradient(circle, rgba(178,21,90,1) 0%, rgba(32,61,95,1) 100%);
+}
+html{
+    scroll-behavior: smooth;
+}
+.text{
+    padding: 3rem 0;
+    color: #edf6f9;
+}
+.hero{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 95vh;
+}
+.hero ._h2{
+    position: absolute;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/pexels-micaela-alejandro-10757791.jpg");
+    background-size: cover;
+}
+.hero ._h2 h2{
+    font-size: 50px;
+}
+.main ._00{
+    opacity: .9;
+    margin: 30vh 0;
+    padding: 3rem 4rem;
+    height: 20rem;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main ._00 .text{
+    max-width: 28rem;
+}
+.main ._00 .text h2{
+    margin: 0px 0px 20px;
+    color: #ef476f;
+}
+.main ._00 .img{
+    position: relative;
+    bottom: 4.9rem;
+    width: fit-content;
+    height: 30rem;
+}
+.main ._00 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main ._st{
+    margin: 40px 0;
+    padding: 0 4rem;
+    height: 36rem;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main ._01 .text{
+    max-width: 28rem;
+}
+.main ._01 .text h2{
+    margin: 0px 0px 20px;
+    color: #ffd166;
+}
+.main ._01 .img{
+    width: 40%;
+    height: 100%;
+}
+.main ._01 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main ._02 .text{
+    max-width: 28rem;
+}
+.main ._02 .text h2{
+    margin: 0px 0px 20px;
+    color: #06d6a0;
+}
+.main ._02 .img{
+    width: fit-content;
+    height: 100%;
+}
+.main ._02 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main ._03 .text{
+    max-width: 28rem;
+}
+.main ._03 .text h2{
+    margin: 0px 0px 20px;
+    color: #118ab2;
+}
+.main ._03 .img{
+    width: 50%;
+    height: 100%;
+}
+.main ._03 .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

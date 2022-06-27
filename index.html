@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiny-Star</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="hero parallax">
+            <div class="_h2">
+                <h2 class="titulo">
+                    zoolafps
+                </h2>
+            </div>
+        </header>
+        <main class="main">
+            <section class="_00">
+                <div class="text">
+                    <h2>about me</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic rem quae aut magni est odio voluptate quibusdam eveniet corporis quod?
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="img/zoolafps.png" alt="">
+                </div>
+            </section>
+            <section class="_01 _st rellax">
+                <div class="img">
+                    <img id="img" class="rellax" src="img/pexels-phil-desforges-12576276.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>
+                        web development portfolio
+                    </h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione eos esse illo, delectus facilis tenetur. Pariatur sapiente, dicta temporibus saepe explicabo repellendus voluptas voluptatum, beatae maiores nihil ipsam ex quis?
+                    </p>
+                </div>
+            </section>
+            <section class="_02 _st rellax">
+                <div class="text">
+                    <h2>
+                        photography portfolio
+                    </h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione eos esse illo, delectus facilis tenetur. Pariatur sapiente, dicta temporibus saepe explicabo repellendus voluptas voluptatum, beatae maiores nihil ipsam ex quis?
+                    </p>
+                </div>
+                <div class="img">
+                    <img id="img" class="rellax" src="img/pexels-zayceva-tatiana-12241511.jpg" alt="" data-rellax-speed="0">
+                </div>
+            </section>
+            <section class="_03 _st">
+                <div class="img">
+                    <img id="img" class="rellax" src="img/pexels-micaela-alejandro-10757791.jpg" alt="" data-rellax-speed="0">
+                </div>
+                <div class="text">
+                    <h2>
+                        Art Portfolio
+                    </h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione eos esse illo, delectus facilis tenetur. Pariatur sapiente, dicta temporibus saepe explicabo repellendus voluptas voluptatum, beatae maiores nihil ipsam ex quis?
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        window.addEventListener("scroll", () => {
+            let value = window.scrollY;
+            document.querySelector(".titulo").style.marginTop = value * 0.7 + "px";
+            document.querySelector("._00").style.opacity = 800 - value;
+        });
+
+        
+        
+        ScrollReveal().reveal('#img', { delay: 200 });
+    </script>
+</body>
+</html>
